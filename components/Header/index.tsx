@@ -109,7 +109,30 @@ const Header = () => {
             <ul className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-center lg:gap-10">
               {menuData.map((menuItem, key) => (
                 <li key={key} className={menuItem.submenu && "group relative"}>
-                  {menuItem.submenu ? (
+                  {menuItem.id > 3 ? (
+                    <button
+                      key={key}
+                      className="hover:text-primary"
+                      onClick={() => {
+                        if (window.location.pathname === "/") {
+                          window.scrollTo({
+                            top: document.getElementById(menuItem.path!)
+                              ?.offsetTop,
+                            behavior: "smooth",
+                          });
+                        } else {
+                          window.location.href = `/#${menuItem.path}`;
+                        }
+                      }}
+                    >
+                      {menuItem.title}
+                    </button>
+                  ) : (
+                    <Link className="hover:text-primary" href={menuItem.path!}>
+                      {menuItem.title}
+                    </Link>
+                  )}
+                  {/* {menuItem.submenu ? (
                     <>
                       <button
                         onClick={() => setDropdownToggler(!dropdownToggler)}
@@ -130,11 +153,9 @@ const Header = () => {
                       <ul
                         className={`dropdown ${dropdownToggler ? "flex" : ""}`}
                       >
-                        {menuItem.submenu.map((item, key) => (
-                          <li key={key} className="hover:text-primary">
-                            <Link href={item.path || "#"}>{item.title}</Link>
-                          </li>
-                        ))}
+                        {menuItem.submenu.map((item, key) =>
+                          ,
+                        )}
                       </ul>
                     </>
                   ) : (
@@ -148,7 +169,7 @@ const Header = () => {
                     >
                       {menuItem.title}
                     </Link>
-                  )}
+                  )} */}
                 </li>
               ))}
             </ul>
