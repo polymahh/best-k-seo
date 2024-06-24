@@ -5,4 +5,7 @@ export const config = {
   siteUrl: "https://bestkeykaufen.de",
   siteDescription:
     "Achieve Top Rankings & Drive Traffic with Expert SEO Solutions",
+  siteEmail: "support@bestkeykaufen.de",
+  addresss: "9 APPOLD STREET,\nLONDON,\nENGLAND EC2A 2AP",
+  phone: "+44 7449492716",
 };
