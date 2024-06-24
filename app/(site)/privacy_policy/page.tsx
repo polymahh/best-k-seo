@@ -13,8 +13,8 @@ const PrivacyPolicy = () => {
             Welcome to {config.siteTitleShort}. We value your privacy and are
             committed to protecting your personal information. This Privacy
             Policy outlines how we collect, use, disclose, and safeguard your
-            information when you visit our website [yourwebsite.com] and use our
-            services.
+            information when you visit our website www.bestkeykaufen.de and use
+            our services.
           </p>
         </section>
 

@@ -12,7 +12,7 @@ const TermsOfService = () => {
             1. Acceptance of Terms
           </h2>
           <p className="mb-4">
-            By accessing and using the website [yourwebsite.com] and our
+            By accessing and using the website www.bestkeykaufen.de and our
             services, you accept and agree to be bound by the terms and
             provisions of this agreement. If you do not agree to abide by these
             terms, please do not use this site or our services.
@@ -111,10 +111,9 @@ const TermsOfService = () => {
           <h2 className="mb-4 text-2xl font-semibold">9. Governing Law</h2>
           <p className="mb-4">
             These terms shall be governed and construed in accordance with the
-            laws of [Your State/Country], without regard to its conflict of law
+            laws of United Kingdom, without regard to its conflict of law
             provisions. Any dispute arising from these terms or your use of the
-            website or services shall be resolved in the courts located in [Your
-            Jurisdiction].
+            website or services shall be resolved in the courts of London.
           </p>
         </section>
 

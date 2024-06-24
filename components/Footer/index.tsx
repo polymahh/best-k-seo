@@ -78,7 +78,7 @@ const Footer = () => {
 
                   <ul>
                     {menuData.map((item, index) => {
-                      if (index > 2) {
+                      if (index > 3) {
                         return null;
                       } else {
                         return (
@@ -137,12 +137,13 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="/blog"
+                        href="/refund_policy"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Our Blog
+                        Refund Policy
                       </a>
                     </li>
+
                     <li>
                       <a
                         href="/support"
