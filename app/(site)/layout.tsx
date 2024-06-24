@@ -12,7 +12,7 @@ import { config } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: {
-    default: config.siteTitle,
+    default: `${config.siteTitle} - Best SEO Services`,
     template: `%s - ${config.siteTitle}`,
   },
   description: config.siteDescription,
