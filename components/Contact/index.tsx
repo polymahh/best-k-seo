@@ -202,6 +202,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>{config.phone}</p>
+                <h3 className="mt-5 text-sm"> {config.companyName}</h3>
               </div>
             </motion.div>
           </div>

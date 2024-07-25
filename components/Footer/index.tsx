@@ -239,12 +239,13 @@ const Footer = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_top"
+              className="animate_top flex items-center"
             >
               <p>
                 &copy; {new Date().getFullYear()} Best Key SEO. All rights
                 reserved
               </p>
+              <h3 className="ml-2"> - {config.companyName}</h3>
             </motion.div>
 
             <motion.div

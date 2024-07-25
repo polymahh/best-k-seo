@@ -129,6 +129,8 @@ const TermsOfService = () => {
             {config.siteEmail}
             <br />
             {config.phone}
+            <br />
+            {config.companyName}
             <div>
               <br />
               {config.addresss.split("\n").map((line, index) => (
